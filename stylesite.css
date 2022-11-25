@@ -11,3 +11,10 @@ header{
     background-position: center center;
 }
 
+h1{
+    color: yellow;
+    font-size: 50px;
+    position: absolute;
+    left: 50%
+    top: 50%;
+}
