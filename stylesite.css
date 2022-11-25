@@ -27,5 +27,7 @@ h1{
     height: 80px;
     background-color: green;
     position: fixed;
-    
+    left: 0;
+    top:0;
+    box-shadow: 0px 0px 20px;
 }
