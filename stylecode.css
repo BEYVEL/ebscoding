@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    color: #FF0000;
+    color: rgba (255,0,0,0.5);
+    /*commentaire*/
+    font-size: 40px;
+    text-align: center;
+    /* left; right ; center ; justify */
+}
+div{
+    width:400px;
+    height: 400px;
+    background-color: orange;
+    display: inline-block;
+}
+monbloc{
+    background-color: blue;
+}
