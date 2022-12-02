@@ -8,12 +8,27 @@
     </head>
  
     <body>
-     <div class="header">
          <h1>Beyvel&nbsp;site</h1>
+     <div class="header">
+        
      </div>
      <div clas="nav">
          
      </div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <style>
+         div{
+             width: 100px;
+             Height: 100px;
+             background-color: lightblue;
+             display: inline-block;
+             margin 20px;
+         }
+     </style>
     </body>
     <script type="text/javascript">
         //alert("Hello world");
@@ -39,9 +54,17 @@
         convertisseur(celsius);
         */
     </script>
- <script type="text/javasctipt" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
  <script type="text/javascript">
-     $("body").css("background-color", "blue");
+ $("h1").click(function() {
+    $("body").css("background-color", "blue");  
+     //alert("Vous avez clique sur le titre");
+     $("div").fadeIn();
+ });
+ 
+   $("div").click(function(){
+      $(this).fadeOut();
+   });
     
  </script>
 </html>
